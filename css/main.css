@@ -9,4 +9,17 @@ body {
   background-color: #307d99;
   background: url('../images/bg.jpg');
   color: white;
+  text-align: center;
+  padding-bottom: 4em; 
+}
+
+header {
+  padding: 1em 0;
+}
+
+.hero-bg a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
 }
