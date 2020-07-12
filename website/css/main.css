@@ -145,7 +145,7 @@ p {
   }
 }
 
-@media (min-width: 930px) {
+@media (min-width: 800px) {
   .hero-bg {
     text-align: left;
   }
@@ -159,6 +159,36 @@ p {
     margin: 2em 0 0;
     padding: 2em;
     border-radius: 0.4em;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+  }
+  form {
+    display: flex;
+  }
+  .form-left {
+    width: 100%;
+  }
+  input[type="button"] {
+    width: 20%;
+    height: fit-content;
+    margin-left: 1em;
+    margin-top: 2.5em;
+    padding: 1em;
+  }
+  .hero-bg p {
+    margin-bottom: 0;
+  }
+  .authentic-copy {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-areas: "image content";
+  }
+  .right-column {
+    grid-area: content;
+    text-align: left;
+    padding: 0 2em;
+    align-self: center;
+  }
+  img {
+    grid-area: image;
   }
 }
