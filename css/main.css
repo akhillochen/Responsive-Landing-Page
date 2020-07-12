@@ -22,4 +22,32 @@ header {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
+  font-size: 1.2rem;
+}
+
+section {
+  margin: 0 1em;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 2em 0 1em;
+}
+
+h1 span {
+  text-transform: uppercase;
+  display: block;
+  font-size: 1.4rem;
+  position: relative;
+  z-index: 1;
+}
+
+h1 span::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 6.8em;
+  background: #3fa4c9;
+  height: 0.3em;
+  z-index: -1;
 }
